@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+body {
+  background: radial-gradient(circle, #0d0d0d, #1a1a1a);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.glassmorphism:hover {
+  box-shadow: 0 4px 40px rgba(0, 255, 255, 0.4);
+}
+
+.text-neon {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.text-glow {
+  color: #ff8a00;
+  text-shadow: 0 0 10px #ff8a00, 0 0 20px #ff4500;
+}
+
+.neon-border {
+  border: 2px solid rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
