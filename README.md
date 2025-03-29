@@ -18,3 +18,11 @@ A React-based dashboard prototype for AI-powered query processing.
 
 ## Setup
 1. Clone the repository:
+
+## Git clone <repo-url>
+2. Install dependencies:
+
+## npm install
+3. Run locally: npm run dev
+
+
